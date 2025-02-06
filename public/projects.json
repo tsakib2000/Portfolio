@@ -1,0 +1,192 @@
+[
+  {
+
+    "id": "1",
+    "title": "Discount-Pro",
+    "description": "A centralized platform to help users save money by discovering and using discount coupons, promo codes, and deals from various brands and retailers. Designed to make shopping more affordable and enjoyable.",
+    "technologies": ["React", "Node.js", "Tailwind CSS", "Firebase", "MongoDB"],
+    "projectUrl": "https://vagabond-horn.surge.sh/",
+    "image": "https://i.ibb.co.com/KD8rTx8/Screenshot-2025-01-04-220522.png",
+    "frontEndRepositoryLink": "https://github.com/programming-hero-web-course1/b10-a9-authentication-tsakib2000",
+    "backEndRepositoryLink": "https://github.com/programming-hero-web-course1/b10-a9-authentication-tsakib2000",
+    "details": {
+      "purpose": "The purpose of this website is to help users save money by providing a centralized platform to discover and use discount coupons, promo codes, and deals from various brands and retailers. It aims to make shopping more affordable, convenient, and enjoyable by connecting users with exclusive savings opportunities tailored to their needs.",
+      "keyFeatures": [
+        "Centralized Deals Hub: Access discounts, promo codes, and coupons from multiple popular brands and retailers in one place.",
+        "Interactive Slider for Top Picks: A visually appealing slider showcasing trending deals and featured brands for easy navigation.",
+        "Categorized Offers: Organized by brands or categories to help users quickly find relevant discounts.",
+        "Brand Profiles: Dedicated sections for each retailer with their exclusive offers and details.",
+        "How It Works Section: Simple, step-by-step guidance on finding and applying deals to save money.",
+        "Newsletter Subscription: Stay updated with the latest deals by subscribing to the newsletter for regular updates.",
+        "Responsive Design: Optimized for all devices, ensuring seamless browsing across desktop, tablet, and mobile.",
+        "Save and Share Options: Users can bookmark favorite deals or share them with friends and family.",
+        "User-Friendly Navigation: Intuitive interface designed for a smooth and engaging user experience.",
+        "Focused on Local & Global Deals: Access to both local and international retailers for diverse shopping opportunities."
+      ],
+      "npmPackages": [
+        {
+          "name": "AOS (Animate on Scroll Library)",
+          "description": "A library used to animate elements when they are scrolled into view. It allows you to easily add various animations like fades, slides, zooms, and more to make your website interactive and engaging."
+        },
+        {
+          "name": "react-copy-to-clipboard",
+          "description": "Provides a React component to copy text to the clipboard. It allows users to easily copy information, such as promo codes, with a simple click."
+        },
+        {
+          "name": "react-fast-marquee",
+          "description": "A React component for creating fast and smooth marquee-style text animations. This is useful for displaying scrolling text, such as notifications, announcements, or deals, in a fast-moving way."
+        },
+        {
+          "name": "react-hot-toast",
+          "description": "A simple, customizable toast notification library for React. It enables showing non-intrusive notifications (alerts) to users, such as confirmation messages or error notifications."
+        },
+        {
+          "name": "react-icons",
+          "description": "A library for integrating popular icons into React applications. It provides a wide variety of icons from multiple libraries (such as FontAwesome, Material Design, etc.), making it easy to add vector-based icons to the project."
+        },
+        {
+          "name": "React Helmet Async",
+          "description": "A powerful library for managing the document head (meta tags, title, etc.) in a React application. Essential for improving SEO and controlling the page's metadata dynamically."
+        }
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "title": "Chill Gamer",
+    "description": "A modern and sleek game review website where players and enthusiasts can dive into the world of gaming, discover top-rated games, and share their perspectives.",
+    "projectUrl": "https://chill-gamer-67a1f.web.app/",
+ "image": "https://i.ibb.co.com/HG26cYR/Screenshot-2025-01-04-222020.png",
+    "frontEndRepositoryLink": "https://github.com/tsakib2000/Chill-Gamer",
+    
+    "features": [
+      "Interactive Game Reviews: Dive into detailed reviews of the most popular games with user ratings and opinions.",
+      "Dynamic Carousel: Eye-catching homepage slider showcasing trending and featured games.",
+      "Top Rated Games Section: Explore the highest-rated games across genres, updated dynamically.",
+      "Player Perspectives: A dedicated space for gamers to share their personal experiences and views on popular titles.",
+      "Dark/Light Mode Toggle: Customize your viewing experience with a seamless theme switcher."
+    ],
+    "about": {
+      "description": "Chill Gamer is designed to connect gamers around the globe, providing them with insightful reviews, aesthetic design, and responsive layouts. It serves as a community-driven platform to celebrate gaming culture."
+    },
+    "technologies": {
+      "frontend": ["React.js", "Tailwind CSS"],
+      "backend": ["Node.js", "Express.js"],
+      "database": "MongoDB",
+      "deployment": "Firebase"
+    },
+    "npmPackages": [
+      {
+        "name": "Firebase",
+        "description": "Provides authentication, real-time database, and cloud storage integration."
+      },
+      {
+        "name": "React Router DOM",
+        "description": "Enables smooth and fast navigation between pages."
+      },
+      {
+        "name": "React Hot Toast",
+        "description": "For displaying quick and interactive toast notifications."
+      },
+      {
+        "name": "React Loader Spinner",
+        "description": "A customizable loader spinner component for better UI experience."
+      },
+      {
+        "name": "React Simple Typewriter",
+        "description": "Adds a dynamic typewriter effect to text elements."
+      },
+      {
+        "name": "React Tooltip",
+        "description": "Easy and customizable tooltips for UI components."
+      },
+      {
+        "name": "SweetAlert2",
+        "description": "Beautiful and customizable popup alerts to enhance user interactions."
+      },
+      {
+        "name": "React Icons",
+        "description": "React icons used for beautification and easy navigation."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "RideFlex",
+    "description": "RideFlex is a web application designed to simplify the process of exploring and booking cars. The platform allows users to browse available cars, book their preferred vehicle, and manage their bookings seamlessly.",
+    "projectUrl": "https://car-rental-e5aee.web.app/",
+    "image": "https://i.ibb.co.com/XXH5xw3/Screenshot-2025-01-04-220900.png",
+    
+    "frontEndRepositoryLink": "https://github.com/tsakib2000/Ride-Flex",
+
+    "features": [
+      "JWT Authentication: Secure login and route protection using JSON Web Tokens.",
+      "Dynamic Car Listings: Search, filter, and sort through available cars.",
+      "Real-time Booking Management: Book cars, update booking details, and cancel bookings.",
+      "Responsive Design: Optimized for mobile, tablet, and desktop users.",
+      "Data Visualization: Interactive charts powered by Recharts.",
+      "User-Friendly Notifications: Toast notifications with React Hot Toast.",
+      "Interactive Animations: Smooth animations implemented using AOS and Lottie React.",
+      "Calendar Integration: Date selection made easy with React Datepicker.",
+      "Interactive Alerts: Elegant modal dialogs powered by SweetAlert2."
+    ],
+    "npmPackages": [
+      {
+        "name": "aos",
+        "description": "For scroll animations."
+      },
+      {
+        "name": "axios",
+        "description": "For API calls."
+      },
+      {
+        "name": "date-fns",
+        "description": "For date manipulation."
+      },
+      {
+        "name": "firebase",
+        "description": "For authentication and database integration."
+      },
+      {
+        "name": "lottie-react",
+        "description": "For animated vector graphics."
+      },
+      {
+        "name": "react",
+        "description": "Core framework."
+      },
+      {
+        "name": "react-datepicker",
+        "description": "For calendar date selection."
+      },
+      {
+        "name": "react-dom",
+        "description": "React DOM manipulation."
+      },
+      {
+        "name": "react-hot-toast",
+        "description": "For toast notifications."
+      },
+      {
+        "name": "react-icons",
+        "description": "For scalable vector icons."
+      },
+      {
+        "name": "react-router-dom",
+        "description": "For routing."
+      },
+      {
+        "name": "recharts",
+        "description": "For data visualization."
+      },
+      {
+        "name": "sweetalert2",
+        "description": "For interactive alerts and modals."
+      },
+      {
+        "name": "swiper",
+        "description": "For responsive carousels."
+      }
+    ]
+  }
+]
