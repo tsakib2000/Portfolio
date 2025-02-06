@@ -112,8 +112,8 @@ const ContactMe = () => {
 
       {/* Description */}
       <p className="text-gray-600 max-w-2xl px-4">
-        If you have any opportunity, suggestion, or feedback, we would love to hear from you! Please
-        feel free to reach out to us using the contact form or our email address.
+        If you have any opportunity, suggestion, or feedback, I would love to hear from you! Please
+        feel free to reach out to me using the contact form or my email address.
       </p>
       <h1 className="font-semibold flex items-center gap-4"><FaPhone/>Phone/Whatsapp: +8801706953344</h1>
       {/* Social Links */}

@@ -1,12 +1,18 @@
 /* eslint-disable react/prop-types */
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 
 const ProjectCard = ({project}) => {
+  useEffect(()=>{
+    AOS.init();
+  })
     const {id,title,projectUrl,image}=project;
     return (
-<div className="card bg-base-100 group shadow-xl rounded-none ">
+<div data-aos="fade-right" className="card bg-base-100 group shadow-xl rounded-none ">
   <figure>
     <img
     className="group-hover:scale-110 transition-transform duration-300 "

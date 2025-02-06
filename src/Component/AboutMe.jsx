@@ -1,13 +1,13 @@
 import { Typewriter } from "react-simple-typewriter";
 import profileImage from "../../src/assets/profile-pic (1).png";
-
+import 'animate.css';
 import { FaDownload, FaFacebook, FaGithub, FaXTwitter } from "react-icons/fa6";
 
 const AboutMe = () => {
   return (
     <div className="aboutMe flex flex-col-reverse md:flex-row items-center justify-evenly mt-4">
       <div className="flex flex-col text-start justify-center gap-4">
-        <h1 className="text-2xl md:text-5xl font-bold">
+        <h1 className="text-2xl md:text-5xl font-bold animate__animated animate__backInLeft">
           Hi <br />
           I&apos;m Tauhidul Islam
         </h1>
@@ -55,7 +55,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div>
-        <img className=" h-[200px] md:h-[400px]" src={profileImage} alt="" />
+        <img className=" h-[200px] md:h-[400px] animate__animated  animate__backInRight" src={profileImage} alt="" />
       </div>
     </div>
   );

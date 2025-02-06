@@ -5,8 +5,13 @@ import react from "../assets/Logos/react.png";
 import Github from "../assets/Logos/github.png";
 import Firebase from "../assets/Logos/firebase.png";
 import Marquee from "react-fast-marquee";
+import { useEffect } from "react";
+import AOS from "aos";
 
 const Skills = () => {
+    useEffect(()=>{
+      AOS.init();
+    })
   return (
     <div id="skills" className="my-8">
       <h1 className="text-center text-3xl md:text-4xl font-bold mb-5">
@@ -24,7 +29,7 @@ const Skills = () => {
         </div>
       </Marquee>
 
-      <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-8 *:font-semibold">
+      <div data-aos="fade-right" className="flex flex-col md:flex-row justify-center gap-2 md:gap-8 *:font-semibold">
         <div className="flex flex-col gap-4">
           <div className="flex items-center justify-between gap-4">
             <h1>HTML 90%</h1>
