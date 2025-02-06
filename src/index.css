@@ -11,4 +11,5 @@ body{
     object-fit: cover;
     background-attachment: fixed;
     color: white !important;
+    height: max-content;
 }

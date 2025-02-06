@@ -1,7 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import profileImage from "../../src/assets/profile-pic (1).png";
 import 'animate.css';
-import { FaDownload, FaFacebook, FaGithub, FaXTwitter } from "react-icons/fa6";
+import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const AboutMe = () => {
   return (
@@ -47,9 +47,10 @@ const AboutMe = () => {
               <FaGithub />
             </button>
           </a>
-          <a href="https://x.com/TAUHIDULIS10407" target="_blank">
+          
+          <a href="https://www.linkedin.com/in/tauhidul-islam-s0212" target="_blank">
             <button className="btn rounded-full border-none bg-blue-500 hover:bg-blue-400 text-white text-[20px] ">
-              <FaXTwitter />
+              <FaLinkedin />
             </button>
           </a>
         </div>

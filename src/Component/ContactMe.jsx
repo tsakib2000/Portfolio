@@ -1,5 +1,6 @@
 import emailjs from "@emailjs/browser";
-import { FaFacebook, FaGithub,  FaPhone,  FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub,  FaPhone } from "react-icons/fa6";
 import Swal from "sweetalert2";
 const ContactMe = () => {
   const handleSendEmail = (e) => {
@@ -117,8 +118,8 @@ const ContactMe = () => {
       </p>
       <h1 className="font-semibold flex items-center gap-4"><FaPhone/>Phone/Whatsapp: +8801706953344</h1>
       {/* Social Links */}
-      <div className="flex space-x-6 mt-4">
-        {/* GitHub */}
+      <div className="flex space-x-6 mt-4 *:text-white">
+    
         <a
           href="https://github.com/tsakib2000"
           target="_blank"
@@ -128,17 +129,17 @@ const ContactMe = () => {
           <FaGithub className="text-2xl" />
         </a>
 
-        {/* Twitter */}
+        
         <a
-          href="https://x.com/TAUHIDULIS10407"
+          href="https://www.linkedin.com/in/tauhidul-islam-s0212"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 hover:text-purple-600 transition"
         >
-          <FaXTwitter className="text-2xl" />
+          <FaLinkedin className="text-2xl" />
         </a>
 
-        {/* Facebook */}
+       
         <a
           href="https://www.facebook.com/tauhid.sakib.40/"
           target="_blank"
