@@ -108,10 +108,10 @@ const ContactMe = () => {
       </h2>
 
       {/* Subtitle */}
-      <h3 className="text-lg md:text-xl font-medium text-gray-700">Let’s connect</h3>
+      <h3 className="text-lg md:text-xl font-medium ">Let’s connect</h3>
 
       {/* Description */}
-      <p className="text-gray-600 max-w-2xl px-4">
+      <p className="max-w-2xl px-4">
         If you have any opportunity, suggestion, or feedback, I would love to hear from you! Please
         feel free to reach out to me using the contact form or my email address.
       </p>

@@ -14,7 +14,8 @@ const Navbar = () => {
     </>
     return (
      
-            <nav className="z-10 flex justify-between w-11/12 mx-auto bg-transparent backdrop-blur-2xl fixed px-8  pt-4  pb-8  ">
+          <div className="bg-transparent backdrop-blur-2xl  fixed z-10 w-full">
+              <nav className=" flex justify-between w-11/12 mx-auto  px-8  pt-4  pb-8  ">
         <div>
             <Link to='/' className="btn btn-ghost font-bold text-xl"><img className="h-14" src={DevIMG} alt="" /></Link>
         </div>
@@ -32,6 +33,7 @@ const Navbar = () => {
 </div>
 
             </nav>
+          </div>
        
     );
 };

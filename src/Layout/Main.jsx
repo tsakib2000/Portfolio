@@ -9,7 +9,7 @@ import Footer from "../Component/Footer";
 
 const Main = () => {
   return (
-    <div className="w-11/12 mx-auto">
+    <div className="">
       <div className="h-[100px]">
         <Navbar />
       </div>

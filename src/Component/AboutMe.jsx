@@ -30,7 +30,7 @@ const AboutMe = () => {
    </div>
 
         <a href="/cv.pdf" download="My_Resume">
-          <button className="btn bg-purple-600 text-white">
+          <button className="btn bg-purple-600 text-white border-none">
             Resume <FaDownload />
           </button>
         </a>
