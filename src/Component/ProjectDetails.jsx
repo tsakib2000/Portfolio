@@ -18,12 +18,11 @@ const ProjectDetails = () => {
     projectUrl,
     image,
     frontEndRepositoryLink,
-  
-    features,
+    keyFeatures,
     npmPackages,
-  } = project;
+  } = project || {};
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 !text-black">
       {!project?.id ? (
         <div className="text-center text-gray-500">
           Loading project details...
@@ -64,7 +63,7 @@ const ProjectDetails = () => {
           <div className="mt-8">
             <h2 className="text-2xl font-semibold mb-4">Key Features</h2>
             <ul className="list-disc pl-6 space-y-2">
-              {features?.map((feature, index) => (
+              {keyFeatures?.map((feature, index) => (
                 <li key={index} className="text-gray-700">
                   {feature}
                 </li>
