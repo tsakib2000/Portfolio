@@ -1,8 +1,14 @@
 import emailjs from "@emailjs/browser";
+import AOS from "aos";
+import { useEffect } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook, FaGithub,  FaPhone } from "react-icons/fa6";
 import Swal from "sweetalert2";
 const ContactMe = () => {
+
+  useEffect(()=>{
+    AOS.init();
+  },[])
   const handleSendEmail = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -38,7 +44,7 @@ const ContactMe = () => {
       <h1 className="text-2xl md:text-4xl font-bold mb-5 text-center">Contact Me</h1>
 
       <div className="flex flex-col justify-between md:flex-row">
-        <div className="bg-gray-800 rounded-lg shadow-lg p-8 w-full ">
+        <div data-aos="fade-right" className="bg-gray-800 rounded-lg shadow-lg p-8 w-full ">
           <form onSubmit={handleSendEmail}>
             <div className="mb-4">
               <label
@@ -102,7 +108,7 @@ const ContactMe = () => {
           </form>
         </div>
 
-        <div className="flex flex-col items-center justify-center text-center py-12 space-y-6">
+        <div data-aos="fade-left" className="flex flex-col items-center justify-center text-center py-12 space-y-6">
       {/* Title */}
       <h2 className="text-2xl md:text-3xl font-semibold">
         <span className="text-purple-600">What’s next?</span>
