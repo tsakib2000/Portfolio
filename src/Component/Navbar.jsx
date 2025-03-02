@@ -1,7 +1,7 @@
 import { FaBars } from "react-icons/fa6";
 
 import DevIMG from '../assets/10169718.png'
-import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
     const  navOptions=<>
@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="bg-transparent backdrop-blur-2xl  fixed z-10 w-full">
               <nav className=" flex justify-between w-11/12 mx-auto  px-8  pt-4  pb-8  ">
         <div>
-            <Link to='/' className="btn btn-ghost font-bold text-xl"><img className="h-14" src={DevIMG} alt="" /></Link>
+            <a href="#home" className="btn btn-ghost font-bold text-xl"><img className="h-14" src={DevIMG} alt="" /></a>
         </div>
         <ul className="hidden md:menu-horizontal menu  bg-gray-800 rounded-box items-center *:text-white *:font-semibold">
  {navOptions}

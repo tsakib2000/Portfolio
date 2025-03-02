@@ -7,9 +7,10 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(./assets/SL.120219.25650.43.jpg);
+    /* background-image: url(./assets/SL.120219.25650.43.jpg); */
+    
     object-fit: cover;
     background-attachment: fixed;
-    color: white !important;
+    /* color: white !important; */
     height: max-content;
 }
