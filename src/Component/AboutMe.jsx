@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className="flex flex-col text-start justify-center gap-4">
         <h1 className="text-2xl md:text-5xl font-bold animate__animated animate__backInLeft">
           Hi <br />
-          I&apos;m Tauhidul Islam sakib
+          I&apos;m Tauhidul Islam sakib ahdha
         </h1>
    <div>
    <h2 className="font-semibold text-2xl">
